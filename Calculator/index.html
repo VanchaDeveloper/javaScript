@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" type="text/javascript"></script>
+     <link rel="stylesheet" href="vendor/css/bootstrap.css">
+    <link rel="stylesheet" href="vendor/css/tether.css">
+    <link rel="stylesheet" href="vendor/css/fontawesome-all.css">
+    <style>
+       body
+        {
+            
+            margin: 150px;
+            background-color: black;
+        }
+        input[name="display"]
+        {
+            width:362px;
+            margin-left: 5px;
+            height: 60px;
+            margin-bottom: 5px;
+            border: 2px solid white;
+box-shadow:white 2px 2px 2px;   
+                border-radius: 5%;
+          background-color:aliceblue; 
+            text-align: right;
+            font-size: 30px;
+        }
+.button{
+  width:80px;
+  height:50px;
+    margin:5px;
+   border: 2px solid lightgray;
+    box-shadow:lightyellow 2px 2px 2px; 
+    background-color:lightyellow; 
+        border-radius: 5%;
+    color: crimson;
+       font-size: 20px;
+}
+        .button2{
+  width:80px;
+  height:50px;
+    margin:5px;
+   border: 2px solid chartreuse;
+    box-shadow:white 2px 2px 2px; 
+    background-color:chartreuse; 
+        border-radius: 5%;
+            font-size: 20px;
+            color: white;
+}
+.button1
+{
+  width:174px;
+  height:50px;
+    margin:5px;
+   border: 2px solid crimson;
+    box-shadow:white 2px 2px 2px; 
+      background-color:crimson; 
+        border-radius: 5%;
+     font-size: 20px;
+            color: white;
+
+}
+
+div{
+
+  width:410px;
+  height:400px;
+    border:2px solid black;
+    padding: 15px;
+       border: 2px solid grey;
+    box-shadow:grey 2px 2px 2px;
+    border-radius: 5%;
+    background-color: #333;
+    border: 2px solid lightgray;
+box-shadow:white 2px 2px 2px;   
+}
+    </style>
+    <script>
+    function btnadd()
+        {
+            document.calculator.display.value += "+";
+                document.calculator.display.textAlign = "right";
+        }
+        function btnsub()
+        {
+            document.calculator.display.value += "-";
+                document.calculator.display.textAlign = "right";
+        }
+            function btnmul()
+        {
+            document.calculator.display.value += "*";
+                document.calculator.display.textAlign = "right";
+        }
+            function btndiv()
+        {
+            document.calculator.display.value += "/";
+                document.calculator.display.textAlign = "right";
+        }
+            function btnmod()
+        {
+            document.calculator.display.value += "%";
+                document.calculator.display.textAlign = "right";
+        }
+            function btndot()
+        {
+            document.calculator.display.value += ".";
+                document.calculator.display.textAlign = "right";
+        }
+            function btnclr()
+        {
+            document.calculator.display.value = " ";
+                document.calculator.display.textAlign = "right";
+        }
+    </script>
+</head>
+    <body>
+    <div class="container-fluid">
+    <form name="calculator" >
+<input type="text " name="display" placeholder="0">
+<input type="button" value="7" class="button" onclick="document.calculator.display.value +='7'">
+<input type="button" value="8" class="button" onclick="document.calculator.display.value +='8'">
+<input type="button" value="9" class="button" onclick="document.calculator.display.value +='9'">
+<input type="button" value="+" class="button2" onclick="btnadd()">
+<input type="button" value="4" class="button" onclick="document.calculator.display.value +='4'">
+<input type="button" value="5" class="button" onclick="document.calculator.display.value +='5'">
+<input type="button" value="6" class="button" onclick="document.calculator.display.value +='6'">
+<input type="button" value="-" class="button2" onclick="btnsub()">
+<input type="button" value="1" class="button" onclick="document.calculator.display.value +='1'">
+<input type="button" value="2" class="button" onclick="document.calculator.display.value +='2'">
+<input type="button" value="3" class="button" onclick="document.calculator.display.value +='3'">
+<input type="button" value="*" class="button2" onclick="btnmul()">
+<input type="button" value="." class="button2" onclick="btndot()">
+<input type="button" value="0" class="button" onclick="document.calculator.display.value +='0'">
+<input type="button" value="/" class="button2" onclick="btndiv()">
+<input type="button" value="%" class="button2" onclick="btnmod()">
+<input type="button" value="=" class="button1" onclick="document.calculator.display.value=eval(document.calculator.display.value)">
+<input type="button" value="C" class="button1" onclick="btnclr()">
+
+    </form>
+        </div>
+    <script>
+
+    </script>
+    </body>
+</html>
