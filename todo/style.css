@@ -1,0 +1,159 @@
+#todoList1
+{
+ background-color: #25b99a;
+}
+#head {
+ background-color: #25b99a;
+ background-size: cover;
+ padding-top: 30px;
+ padding-bottom: 30px;
+ padding-left: 50px ;
+ padding-right: 50px;
+}
+#activity
+{
+  color: white;
+  background-color: #50c7ae;
+  width:95%;
+  height: 60px;
+  padding-left: 20px;
+  padding-right: 30px;
+  border: 0;
+  border-top-left-radius:5px ;
+  border-bottom-left-radius:  5px;
+  font-size: 24px;
+}
+@media (max-width:1300px) {
+  #activity
+  {
+    width: 85%;
+  }
+}
+@media (max-width:500px) {
+  #activity
+  {
+    width: 65%;
+  }
+}
+.plusss
+{
+  height: 60px;
+  width: 60px;
+  border : 0;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background-color:#50c7ae;
+}
+#plus
+{
+  height: 60px;
+  width: 60px;
+  border : 1px solid #E1F5FE;
+  border-radius: 30px;
+  font-size: 40px;
+  color:#25b99a;
+  background-color:#E1F5FE;
+  text-decoration: none;
+}
+#plus:hover
+{
+  background-color:#25b99a;
+  color:#E1F5FE;
+  text-decoration: none;
+}
+#todoList2
+{
+   background-color: #E1F5FE;
+}
+#todo{
+  background-color: #E1F5FE;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 50px ;
+  padding-right: 50px;
+
+}
+.toList
+{
+  height: 40px;
+    list-style: none;
+  font-size: 20px;
+  color: white;
+  padding-top: 5px;
+   padding-left: 20px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color:  #25b99a;
+    margin-bottom: 30px;
+}
+.diveeList , .diveList
+{
+  display:inline-block;
+}
+.diveeList
+{
+  width:90%;
+}
+@media (max-width:1250px)
+{
+  .diveeList{
+  width:85%;
+}
+}
+@media (max-width:950px)
+{
+  .diveeList{
+  width:70%;
+}}
+.diveList
+{
+  height: 50px;
+}
+.btnrem , .btnbtn
+{
+width: 40px;
+height: 40px;
+background-color:  #E1F5FE;
+font-size: 20px;
+border: 0;
+color: #25b99a;
+cursor: pointer;
+border-radius: 20px;
+margin-right :10px;
+}
+.btnrem:hover , .btnbtn:hover
+{
+color:  #E1F5FE;
+background-color: #25b99a;
+border : 2px solid #E1F5FE;
+}
+.maindiv
+{
+  width: 95%;
+  height:50px;
+  background-color: #25b99a;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+.hLine
+{
+
+  height: 1px;
+  width:10%;
+  background-color:#50c7ae;
+  margin-bottom: 26px;
+}
+@media (max-width:500px)
+{
+  #todo
+  {
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: -25px;
+  }
+  .diveeList{
+  width:50%;
+}
+}
