@@ -1,0 +1,81 @@
+#game
+{
+  background-color:black;
+
+}
+#headingdiv
+{
+color: #0080FF;
+padding-top: 30px;
+margin-bottom: 20px;
+align-items:  center;
+justify-content: center;
+}
+.cell
+{
+border: 2px solid #0080FF;
+height: 135px;
+width:135px;
+text-align: center;
+vertical-align:middle;
+font-size :80px;
+color:#0080FF;
+cursor: pointer;
+}
+#tablediv
+{
+  border-collapse: collapse;
+      display: block;
+    margin-bottom: 20px;
+}
+
+#replaydiv
+{
+  margin-top: 20px;
+padding-top: 20px;
+ padding-bottom: 30px;
+align-items:  center;
+justify-content: center;
+}
+.replay{
+
+font-size: 24px;
+color: #0080FF;
+background-color: black;
+border:2px solid #0080FF;
+border-radius: 10px;
+}
+button:hover {
+border:2px solid red;
+color: red;
+}
+#row1 .cell
+{
+  border-top: 0;
+}
+#row3 .cell
+{
+  border-bottom: 0;
+}
+.ticrow  :first-child
+{
+  border-left: 0;
+}
+.ticrow :last-child
+{
+  border-right: 0;
+}
+#resultdiv
+{
+position :absolute;
+height:100px;
+left:27%;
+top:41%;
+width:50%;
+color: red;
+border:2px solid red;
+background-color: black;
+display:none;
+font-size: 30px;
+padding-top: 20px;
+}
